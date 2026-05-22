@@ -8,6 +8,7 @@ desktop.ini
 # Editors
 .vscode/
 .idea/
+.claude/
 
 # Brainstorming session files
 .superpowers/
