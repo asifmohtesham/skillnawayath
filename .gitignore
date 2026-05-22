@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Brainstorming session files
+.superpowers/
+
+# Docs build artefacts
+docs/superpowers/
