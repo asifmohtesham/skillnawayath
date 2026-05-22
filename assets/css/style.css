@@ -305,6 +305,14 @@ a { color: inherit; }
 }
 .value-desc { font-size: 13px; line-height: 1.6; color: var(--text-secondary); }
 
+/* ── Privacy: contact link ────────────────────────────── */
+.contact-link {
+  color: var(--text-primary);
+  font-weight: 500;
+  text-decoration: underline;
+}
+.contact-link:hover { color: var(--crimson-text); }
+
 /* ── Privacy: accent line ─────────────────────────────── */
 .accent-line {
   display: block;
