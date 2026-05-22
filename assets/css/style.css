@@ -67,6 +67,12 @@ a { color: inherit; }
 .nav-link:hover::after { width: 100%; }
 .nav-link.active { color: var(--text-primary); }
 .nav-link.active::after { width: 100%; }
+.nav-link:focus-visible,
+.strip-link:focus-visible,
+.footer-link:focus-visible {
+  outline: 2px solid var(--crimson-text);
+  outline-offset: 3px;
+}
 
 /* ── Home: Hero ───────────────────────────────────────── */
 .site-hero {
@@ -114,7 +120,6 @@ a { color: inherit; }
   flex: 1;
   height: 1px;
   background: var(--crimson-decor);
-  will-change: transform;
 }
 .divider-text {
   font-size: 10px;
@@ -259,6 +264,7 @@ a { color: inherit; }
 .section-heading {
   font-family: 'Playfair Display', serif;
   font-size: 26px;
+  font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 14px;
 }
@@ -289,6 +295,7 @@ a { color: inherit; }
 .value-card:hover {
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(255, 255, 255, 0.22);
+  border-top-color: var(--crimson-decor);
 }
 .value-name {
   font-family: 'Playfair Display', serif;
