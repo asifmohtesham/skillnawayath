@@ -15,3 +15,5 @@ desktop.ini
 
 # Docs build artefacts
 docs/superpowers/
+
+.vercel
