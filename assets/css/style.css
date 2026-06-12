@@ -252,6 +252,7 @@ a { color: inherit; }
 }
 .strip-link {
   display: inline-block;
+  position: relative;
   margin-top: 18px;
   font-size: 12px;
   font-weight: 600;
@@ -264,6 +265,12 @@ a { color: inherit; }
   transition: color 0.2s;
 }
 .strip-link:hover { color: var(--crimson-text); }
+/* Expand tap target without changing layout */
+.strip-link::before {
+  content: '';
+  position: absolute;
+  inset: -12px -8px;
+}
 .strip-arrow {
   display: inline-block;
   transition: transform 0.2s ease;
@@ -287,6 +294,9 @@ a { color: inherit; }
   color: var(--text-secondary);
   text-decoration: none;
   transition: color 0.2s;
+  /* Thicker tap target, no visual change */
+  padding: 10px 4px;
+  margin: -10px -4px;
 }
 .footer-link:hover { color: var(--text-primary); }
 .footer-sep { color: var(--text-muted); }
@@ -295,6 +305,8 @@ a { color: inherit; }
   color: var(--text-secondary);
   text-decoration: none;
   transition: color 0.2s;
+  padding: 10px 4px;
+  margin: -10px -4px;
 }
 .footer-email:hover { color: var(--text-primary); }
 .footer-email:focus-visible {
@@ -458,4 +470,13 @@ a { color: inherit; }
   .values-row { flex-direction: column; }
   .site-footer { flex-direction: column; align-items: flex-start; padding: 24px 5%; }
   .footer-links { gap: 16px; }
+  .footer-sep { display: none; }
+}
+
+@media (max-width: 480px) {
+  .hero-pillars {
+    flex-direction: column;
+    gap: 28px;
+  }
+  .pillar-desc { letter-spacing: 2px; }
 }
