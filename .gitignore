@@ -17,3 +17,6 @@ desktop.ini
 docs/superpowers/
 
 .vercel
+
+# Local verification screenshots
+.shots/
