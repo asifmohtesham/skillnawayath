@@ -3,85 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.classList.add('js');</script>
   <meta name="description" content="SkillNawayath — An educational platform rooted in the Nawayath tradition. Learn, Think, Grow.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SkillNawayath">
+  <meta property="og:title" content="SkillNawayath — Learn, Think, Grow">
+  <meta property="og:description" content="An educational platform rooted in the Nawayath tradition of learning — built to inspire curiosity, cultivate sound thought, and fuel lifelong growth.">
+  <meta property="og:url" content="https://skillnawayath.com/">
+  <meta property="og:image" content="https://skillnawayath.com/assets/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="SkillNawayath — Learn, Think, Grow. Empowering Minds. Honoring Heritage.">
+  <meta name="twitter:card" content="summary_large_image">
   <title>SkillNawayath — Learn, Think, Grow</title>
+  <link rel="canonical" href="https://skillnawayath.com/">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body data-page="home">
 
-  <nav class="site-nav" id="site-nav">
-    <a href="index.html" class="nav-wordmark">
-      <img src="assets/images/wordmark.png" alt="SkillNawayath">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav class="site-nav" id="site-nav" data-anim>
+    <a href="/" class="nav-wordmark">
+      <img src="/assets/images/wordmark.png" alt="SkillNawayath" width="160" height="160">
     </a>
     <div class="nav-links">
-      <a href="index.html" class="nav-link active">Home</a>
-      <a href="about.html" class="nav-link">About</a>
-      <a href="privacy.html" class="nav-link">Privacy</a>
+      <a href="/" class="nav-link active">Home</a>
+      <a href="/about" class="nav-link">About</a>
+      <a href="/privacy" class="nav-link">Privacy</a>
     </div>
   </nav>
 
-  <section class="site-hero">
-    <p class="hero-tagline" id="hero-tagline">Learn · Think · Grow</p>
-    <h1 class="hero-headline" id="hero-headline">Empowering Minds.<br>Honoring Heritage.</h1>
-    <p class="hero-sub" id="hero-sub">
-      An educational platform rooted in the Nawayath tradition of learning —
-      built to inspire curiosity, cultivate sound thought, and fuel lifelong growth.
-    </p>
-    <div class="hero-divider">
-      <span class="divider-line" id="divider-left"></span>
-      <span class="divider-text" id="divider-text">Our Pillars</span>
-      <span class="divider-line" id="divider-right"></span>
-    </div>
-    <div class="hero-pillars">
-      <div class="pillar" id="pillar-learn">
-        <span class="pillar-word">Learn</span>
-        <p class="pillar-desc">Strive with purpose</p>
-        <span class="pillar-dot"></span>
-      </div>
-      <div class="pillar" id="pillar-think">
-        <span class="pillar-word">Think</span>
-        <p class="pillar-desc">Generate sound thought</p>
-        <span class="pillar-dot"></span>
-      </div>
-      <div class="pillar" id="pillar-grow">
-        <span class="pillar-word">Grow</span>
-        <p class="pillar-desc">Evolve with experience</p>
-        <span class="pillar-dot"></span>
-      </div>
-    </div>
-  </section>
+  <main id="main">
 
-  <section class="site-about-strip" id="story-strip">
-    <p class="strip-year">Est. 2000</p>
-    <div>
-      <p class="strip-label">Our Story</p>
-      <p class="strip-text">
-        Founded in the spirit of the Nawayath community's centuries-old commitment to knowledge,
-        SkillNawayath was established to bring that tradition into the modern age — making
-        quality education accessible, meaningful, and enduring.
+    <section class="site-hero">
+      <p class="hero-tagline" id="hero-tagline" data-anim>Learn · Think · Grow</p>
+      <h1 class="hero-headline" id="hero-headline" data-anim>Empowering Minds.<br>Honoring Heritage.</h1>
+      <p class="hero-sub" id="hero-sub" data-anim>
+        An educational platform rooted in the Nawayath tradition of learning —
+        built to inspire curiosity, cultivate sound thought, and fuel lifelong growth.
       </p>
-      <a class="strip-link" href="about.html">Read more about us →</a>
-    </div>
-  </section>
+      <div class="hero-cta" id="hero-cta" data-anim>
+        <a class="cta-primary" href="/about">Discover Our Story</a>
+        <a class="cta-secondary" href="mailto:support@skillnawayath.com">Get in touch</a>
+      </div>
+      <div class="hero-divider">
+        <span class="divider-line" id="divider-left" data-anim></span>
+        <span class="divider-text" id="divider-text" data-anim>Our Pillars</span>
+        <span class="divider-line" id="divider-right" data-anim></span>
+      </div>
+      <div class="hero-pillars">
+        <div class="pillar" id="pillar-learn" data-anim>
+          <span class="pillar-word">Learn</span>
+          <p class="pillar-desc">Strive with purpose</p>
+          <span class="pillar-dot"></span>
+        </div>
+        <div class="pillar" id="pillar-think" data-anim>
+          <span class="pillar-word">Think</span>
+          <p class="pillar-desc">Generate sound thought</p>
+          <span class="pillar-dot"></span>
+        </div>
+        <div class="pillar" id="pillar-grow" data-anim>
+          <span class="pillar-word">Grow</span>
+          <p class="pillar-desc">Evolve with experience</p>
+          <span class="pillar-dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-about-strip" id="story-strip" data-anim-scroll>
+      <p class="strip-year">Est. 2000</p>
+      <div>
+        <p class="strip-label">Our Story</p>
+        <p class="strip-text">
+          Founded in the spirit of the Nawayath community's centuries-old commitment to knowledge,
+          SkillNawayath was established to bring that tradition into the modern age — making
+          quality education accessible, meaningful, and enduring.
+        </p>
+        <a class="strip-link" href="/about">Read more about us <span class="strip-arrow">→</span></a>
+      </div>
+    </section>
+
+  </main>
 
   <footer class="site-footer" id="site-footer">
     <span class="footer-copy">© 2000–2026 SkillNawayath. All rights reserved.</span>
     <div class="footer-links">
-      <a class="footer-link" href="index.html">Home</a>
+      <a class="footer-link" href="/">Home</a>
       <span class="footer-sep">·</span>
-      <a class="footer-link" href="about.html">About</a>
+      <a class="footer-link" href="/about">About</a>
       <span class="footer-sep">·</span>
-      <a class="footer-link" href="privacy.html">Privacy</a>
+      <a class="footer-link" href="/privacy">Privacy</a>
       <span class="footer-sep">·</span>
-      <span class="footer-email">support@skillnawayath.com</span>
+      <a class="footer-email" href="mailto:support@skillnawayath.com">support@skillnawayath.com</a>
     </div>
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="assets/js/animations.js"></script>
+  <script src="/assets/js/animations.js"></script>
 </body>
 </html>
