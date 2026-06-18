@@ -57,6 +57,8 @@ mark IoU ≈ **0.977** (maroon) / **0.976** (indigo); wordmark is exact (real fo
 | `skillnawayath-mark.svg` | Color icon only |
 | `skillnawayath-mark-white.svg` | White icon — dark backgrounds |
 | `skillnawayath-mark-black.svg` | Black icon — light backgrounds |
+| `skillnawayath-logo-horizontal.svg` | Horizontal lockup (mark + wordmark side-by-side), dark text |
+| `skillnawayath-logo-horizontal-white.svg` | Horizontal lockup, white wordmark — dark backgrounds (used in site nav) |
 
 ### `favicon/` — web icons
 Transparent mark (adapts to tab background):

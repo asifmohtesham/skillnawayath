@@ -52,15 +52,12 @@ a { color: inherit; }
   height: 68px;
 }
 .nav-wordmark {
-  background: #fff;
-  border-radius: 8px;
-  padding: 4px 10px;
   display: flex;
   align-items: center;
   flex-shrink: 0;
   text-decoration: none;
 }
-.nav-wordmark img { height: 32px; width: auto; }
+.nav-wordmark img { height: 40px; width: auto; }
 .nav-links { display: flex; gap: 36px; }
 .nav-link {
   font-size: 13px;
@@ -474,6 +471,9 @@ a { color: inherit; }
 }
 
 @media (max-width: 480px) {
+  .nav-wordmark img { height: 30px; }
+  .nav-links { gap: 16px; }
+  .nav-link { font-size: 12px; }
   .hero-pillars {
     flex-direction: column;
     gap: 28px;
