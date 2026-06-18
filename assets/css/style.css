@@ -44,7 +44,8 @@ a { color: inherit; }
 
 /* ── Navigation ───────────────────────────────────────── */
 .site-nav {
-  background: var(--bg-nav);
+  background: var(--bg-footer);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   padding: 0 6%;
   display: flex;
   align-items: center;
