@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="skillnawayath">
+  <defs><clipPath id="m"><path d="M1776,909 A29,29 0 0 1 1805,880 L2000,880 A57,57 0 0 1 2057,937 L2057,1250 A29,29 0 0 1 2028,1279 L1833,1279 A57,57 0 0 1 1776,1222 Z"/></clipPath></defs>
+  <rect x="0" y="0" width="512" height="512" rx="113" ry="113" fill="#ffffff"/>
+  <g transform="translate(256,256) scale(0.76992) translate(-1916.5,-1079.5)">
+    <g clip-path="url(#m)">
+      <polygon points="1676,809.7 2157,1296.3 2157,680 1676,680" fill="#842430"/>
+      <polygon points="1676,863.7 2157,1349.9 2157,1479 1676,1479" fill="#3b367a"/>
+    </g>
+  </g>
+</svg>
